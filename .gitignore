@@ -1,0 +1,26 @@
+# API Keys & Secrets
+*.key
+*.pem
+.env
+.env.*
+
+# OpenClaw config (contains API keys)
+config/openclaw-config.json
+
+# Database
+*.db
+*.db.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Build
+*.bak
+*.tmp
+
+# Temp
+_kb-repo/
