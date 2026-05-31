@@ -1,0 +1,12 @@
+# Force UTF-8 for all text files
+* text=auto working-tree-encoding=UTF-8
+
+# Explicit UTF-8 for markdown
+*.md text working-tree-encoding=UTF-8
+
+# Explicit UTF-8 for JSON
+*.json text working-tree-encoding=UTF-8
+
+# Explicit UTF-8 for YAML
+*.yml text working-tree-encoding=UTF-8
+*.yaml text working-tree-encoding=UTF-8
